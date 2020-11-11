@@ -1,0 +1,375 @@
+/* ========================================================================== *\
+    01. Base
+\* ========================================================================== */
+
+/*------------------------------------*\
+    Root    (For Design Guideline)
+\*------------------------------------*/
+:root {
+    --black: #232323;
+    --grey: #888;
+    --lightgrey: #ADADAD;
+    --white: #fff;
+    --primary: #2A68AF;
+    --secondary: #F5C246;
+    --blue-grey: #F0F4FD;
+    --orange: #ff7f50;
+}
+
+* {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+@media all and (max-width:992px) {
+    html {
+        font-size: 15px
+    }
+
+}
+
+@media all and (max-width:768px) {
+    html {
+        font-size: 14px
+    }
+
+}
+
+@media all and (max-width:480px) {
+    html {
+        font-size: 13px
+    }
+
+}
+
+body {
+    background: #fff;
+    color: #232323;
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, 'Microsoft YaHei', 'Microsoft JhengHei', 微軟正黑體, '微軟正黑體', 'PingFang SC', 'Noto Sans CJK TC', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100%;
+    text-align: left;
+    text-rendering: optimizeSpeed;
+}
+
+a {
+    text-decoration: none;
+    color: #6A9ED9;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    transition: all .25s ease
+}
+
+a:hover {
+    color: #34495E;
+}
+
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bolder;
+}
+
+dl,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Noto Sans CJK TC', '微軟正黑體', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+    outline: none
+}
+
+img,
+svg,
+image {
+    max-width: 100%;
+    height: auto
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 2.5rem
+}
+
+h2 {
+    font-size: 2.25rem
+}
+
+h3 {
+    font-size: 2rem
+}
+
+h4 {
+    font-size: 1.75rem
+}
+
+h5 {
+    font-size: 1.5rem
+}
+
+h6 {
+    font-size: 1.1125rem
+}
+
+p {
+    font-size: 1rem
+}
+
+span {
+    font-size: .9375rem
+}
+
+label {
+    font-size: .9375rem
+}
+
+em {
+    font-style: italic
+}
+
+/* ::-moz-selection {
+    background: #1F489B;
+    color: #fff
+}
+
+::selection {
+    background: #1F489B;
+    color: #fff
+} */
+
+/*------------------------------------*\
+    Placeholder
+\*------------------------------------*/
+
+/* WebKit browsers */
+::-webkit-input-placeholder {
+    color: #b1b6bc;
+}
+
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
+    color: #b1b6bc;
+}
+
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {
+    color: #b1b6bc;
+    opacity: 1
+}
+
+/* Internet Explorer 10+ */
+:-ms-input-placeholder {
+    color: #b1b6bc !important;
+}
+
+/* Input */
+.input-group {
+    margin: 0 .75rem 1.25rem .75rem;
+    display: inline-block;
+    background: #fff;
+    width: 100%;
+}
+
+.input-group label {
+    color: #B2B8C3;
+    font-size: 1rem;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 300ms ease all;
+}
+
+.input-group .bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.input-group .bar:before {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #2A68AF;
+    transition: 300ms ease all;
+    left: 0;
+}
+
+input,
+textarea {
+    background: none;
+    color: #232323;
+    font-size: 1.125rem;
+    padding: 0.75rem 0.625rem 0.75rem .3125rem;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #d8dbe3;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -16px;
+    font-size: 12px;
+    color: #2A68AF;
+}
+
+input:focus~.bar:before,
+textarea:focus~.bar:before {
+    width: 100%;
+}
+
+input[type="password"] {
+    letter-spacing: .25em;
+}
+
+.select {
+    width: 100%
+}
+
+.select-text {
+    position: relative;
+    font-family: inherit;
+    background-color: white;
+    color: #232323;
+    font-size: 1.125rem;
+    padding: 0.75rem 0.625rem 0.75rem .3125rem;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #d8dbe3;
+}
+
+.select-text:focus {
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.select .select-text {
+    appearance: none;
+    -webkit-appearance: none
+}
+
+.select:after {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    padding: 0;
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgba(0, 0, 0, 0.12);
+    pointer-events: none;
+}
+
+.select-label {
+    color: #B2B8C3;
+    font-size: 1rem;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 300ms ease all;
+}
+
+.select-text:focus~.select-label,
+.select-text:valid~.select-label {
+    color: #2A68AF;
+    top: -20px;
+    transition: 0.2s ease all;
+    font-size: 12px;
+}
+
+.select-bar {
+    display: block;
+}
+
+.select-bar:before,
+.select-bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #2A68AF;
+    transition: 0.2s ease all;
+}
+
+.select-bar:before {
+    left: 50%;
+}
+
+.select-bar:after {
+    right: 50%;
+}
+
+.select-text:focus~.select-bar:before,
+.select-text:focus~.select-bar:after {
+    width: 50%;
+}
+
+.select-highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+[data-toggle~="collapse"] {
+    cursor: pointer;
+}

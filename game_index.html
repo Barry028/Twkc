@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>TWKC - 台灣權王 - 夢想DNA</title>
+    <!-- CSS reset -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vender/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="vender/animate.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/themes.css">
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+    <!--[if lte IE 9]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <script src="vender/Placeholders.js-master/dist/placeholders.jquery.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <main>
+        <section class="bg--primary">
+            <div class="mask mask_ioio"></div>
+            <ul class="bg-sq-animate">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="container">
+                <div class="game-main-index">
+                    <div class="game-title">
+                        <img src="game_img/game-title.svg" alt="" class="title wow bounceInDown" data-wow-delay="0"data-wow-duration="1s">
+                        <img src="game_img/game-1.svg" alt="" class="game-1 wow bounceInDown" data-wow-delay=".2s"data-wow-duration="1s">
+                        <img src="game_img/game-2.svg" alt="" class="game-2 wow bounceInDown" data-wow-delay=".3s"data-wow-duration="1s">
+                        <img src="game_img/dna-1.svg" alt="" class="dna-1 wow bounceInDown" data-wow-delay=".4s"data-wow-duration="1s">
+                        <img src="game_img/dna-2.svg" alt="" class="dna-2 wow bounceInDown" data-wow-delay=".5s"data-wow-duration="1s">
+                        <img src="game_img/dna-3.svg" alt="" class="dna-3 wow bounceInDown" data-wow-delay=".6s"data-wow-duration="1s">
+                        <img src="game_img/dna-4.svg" alt="" class="dna-4 wow bounceInDown" data-wow-delay=".7s"data-wow-duration="1s">
+                        <img src="game_img/daimond.svg" alt="" class="daimond wow bounceInDown" data-wow-delay=".8s"data-wow-duration="1s">
+                    </div>
+                    <div class="game-text">
+                        <img src="game_img/game-text.svg" alt="" class="text wow bounceInDown" data-wow-delay="1s"data-wow-duration="1s">
+                    </div>
+                    <div class="game-btn">
+                        <a href="#!" class="btn btn--red wow bounceInDown" data-wow-delay="1.2s" data-wow-duration="1s" id="login">找出我的 DNA</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="index.html">
+                <img src="game_img/logo.svg" alt="">
+            </a>
+        </footer>
+    </main>
+    <!-- Js -->
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- layer -->
+    <script src="vender/layer-v3.1.1/layer/layer.js"></script>
+    <!-- chart -->
+    <script src="vender/Chart.js-master/dist/charts.min.js"></script>
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main -->
+    <script src="js/main.min.js"></script>
+    <script>
+    ///*** layer 彈窗調用 ***///
+    layer.config({
+        extend: 'myskin/style.css'
+    });
+    $('#login').on('click', function() {
+        var index = parent.layer.getFrameIndex(window.name);
+        layer.open({
+            skin: 'my-skin',
+            type: 1,
+            anim: 5,
+            title: ['夢想DNA，開始追夢第一步！'],
+            scrollbar: false,
+            area: ['30rem', 'auto'],
+            move: false,
+            shadeClose: true,
+            fixed: true,
+            content: '<div class="copy">FB登入小提醒：完成所有遊戲測驗，<br>找出自己的夢想DNA並分享至臉書，就有機會抽小禮物喔^_^<br><font class="text--lightgrey--1">備註：同一身分證僅限一次領獎機會</font></div><div class="center"><a a href="game_load.html" class="btn btn--fb btn--lg">使用Facebook登入</a></div><div class="mark"><a href="#!">夢想DNA使用守則</a></div>'
+        });
+    });
+    </script>
+    <script>
+    // <canvas id="libweb" width="600px" height="600px"></canvas>
+    var data = {
+        libweb: {
+            labels: [
+                "國文",
+                "英文",
+                "數學",
+                "社會",
+                "自然"
+            ],
+
+            datasets: [{
+                fillColor: "rgba(151,187,205,0.5)",
+                strokeColor: "rgba(151,187,205,1)",
+                pointColor: "rgba(151,187,205,1)",
+                pointStrokeColor: "#fff",
+                data: [30, 100, 90, 100, 90]
+            }]
+        }
+    };
+
+    var options = {
+        percentageInnerCutout: 100
+    };
+
+    $.each(data, function(key, data) {
+        var canvas = document.querySelector('#' + key);
+        var ctx = canvas.getContext('2d');
+        var chart = new Chart(ctx);
+        chart.Radar(data, options);
+    });
+    </script>
+</body>
+
+</html>

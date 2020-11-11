@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="42.5" viewBox="0 0 41 42.5">
+  <g id="rank-active" transform="translate(-797.5 -1558.5)">
+    <g id="Group_38325" data-name="Group 38325" transform="translate(676 1125)">
+      <path id="Path_50183" data-name="Path 50183" d="M159.895,453.1H124.105V451H122v4.2h2.105v2.1h35.789v-2.1H162V451h-2.105Z" transform="translate(0 18.7)" fill="#be4a2f"/>
+      <rect id="Rectangle_25379" data-name="Rectangle 25379" width="6.316" height="4.2" transform="translate(136.737 463.4)" fill="#feae34"/>
+      <path id="Union_81" data-name="Union 81" d="M2.105,35.7V33.6H0V2.1H2.105V0H37.894V2.1H40V33.6H37.894v2.1Zm12.631-2.1h6.316V29.4H14.737Zm0-6.3h6.316V23.1h8.421V21h0v2.1H21.052v4.2ZM8.421,14.7h6.316V10.5h0v4.2ZM29.473,6.3v0Zm-18.947,0V4.2h0V6.3Z" transform="translate(122 434)" fill="#feae34" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      <rect id="Rectangle_25380" data-name="Rectangle 25380" width="35.789" height="2.1" transform="translate(124.105 469.7)" fill="#fee761"/>
+      <rect id="Rectangle_25381" data-name="Rectangle 25381" width="2.105" height="2.1" transform="translate(159.895 467.6)" fill="#fee761"/>
+      <rect id="Rectangle_25382" data-name="Rectangle 25382" width="2.105" height="2.1" transform="translate(122 467.6)" fill="#fee761"/>
+    </g>
+    <text id="_1" data-name="1" transform="translate(810.5 1590)" fill="#fff" font-size="30" font-family="04b21, "04b_21""><tspan x="0" y="0">1</tspan></text>
+  </g>
+</svg>

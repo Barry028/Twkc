@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="closebtn" transform="translate(21496 1124)">
+    <circle id="Ellipse_2111" data-name="Ellipse 2111" cx="12" cy="12" r="12" transform="translate(-21496 -1124)" fill="#fff"/>
+    <path id="cancel_1_" data-name="cancel (1)" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm6.618,15.564-3.054,3.055L12,15.055,8.436,18.619,5.382,15.564,8.945,12,5.382,8.436,8.436,5.382,12,8.945l3.564-3.564,3.054,3.054L15.055,12Z" transform="translate(-21496 -1124)" fill="#6c757d"/>
+  </g>
+</svg>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>TWKC - 台灣權王 - 夢想DNA</title>
+    <!-- CSS reset -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Vender  -->
+    <link rel="stylesheet" type="text/css" href="vender/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vender/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="vender/animate.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/themes.css">
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+    <!--[if lte IE 9]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <script src="vender/Placeholders.js-master/dist/placeholders.jquery.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <main>
+        <section class="bg--primary">
+            <div class="mask bg--sq bg--sq--01"></div>
+            <div class="container">
+                <div class="game-main">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="img-box wow fadeInDownBig" data-wow-delay=".2s" data-wow-duration="1s">
+                            <img src="game_img/steve.jpg" alt="">
+                            <!-- 馬雲 -->
+                            <!-- <img src="game_img/ma.jpg" alt=""> -->
+                            <!-- 比爾 -->
+                            <!-- <img src="game_img/bill.jpg" alt=""> -->
+                            <!-- 馬克 -->
+                            <!-- <img src="game_img/mark.jpg" alt=""> -->
+                            <!-- 伊隆 -->
+                            <!-- <img src="game_img/elon.jpg" alt=""> -->
+                        </div>
+                        <div class="chart-box wow fadeInDownBig" data-wow-delay=".4s" data-wow-duration="1s">
+                            <canvas id="myChart" width="290" height="290"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <!-- 賈伯斯 -->
+                        <img src="game_img/steve-t.svg" alt="" class="game-end-t wow fadeInDownBig" data-wow-delay=".6s" data-wow-duration="1s">
+                        <img src="game_img/steve-d.svg" alt="" class="game-end-d wow fadeInDownBig" data-wow-delay=".8s" data-wow-duration="1s">
+                        <!-- 馬雲 -->
+                        <!-- <img src="game_img/yu-t.svg" alt="" class="game-end-t">
+                        <img src="game_img/yu.svg" alt="" class="game-end-d"> -->
+                        <!-- 比爾 -->
+                        <!-- <img src="game_img/bill-t.svg" alt="" class="game-end-t">
+                        <img src="game_img/bill-d.svg" alt="" class="game-end-d"> -->
+                        <!-- 馬克 -->
+                        <!-- <img src="game_img/mark-t.svg" alt="" class="game-end-t">
+                        <img src="game_img/mark-d.svg" alt="" class="game-end-d"> -->
+                        <!-- 伊隆 -->
+                        <!-- <img src="game_img/elon-t.svg" alt="" class="game-end-t">
+                        <img src="game_img/elon-d.svg" alt="" class="game-end-d"> -->
+                        <div class="game-9-btn">
+                            <a href="#!" class="btn btn--yellow wow fadeInDownBig" data-wow-delay="1s" data-wow-duration="1s">分享我的夢想DNA</a>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
+            </div>
+        </section>
+        <div class="give wow bounceInRight" data-wow-duration="1s">
+            <a href="#!" id="alerts"><img src="game_img/give.svg" alt=""></a>
+        </div>
+        <footer>
+            <a href="index.html">
+                <img src="game_img/logo.svg" alt="">
+            </a>
+        </footer>
+    </main>
+    <!-- Js -->
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <!-- layer -->
+    <script src="vender/layer-v3.1.1/layer/layer.js"></script>
+    <!-- chart -->
+    <script src="vender/Chart.js-master/dist/charts.min.js"></script>
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main -->
+    <script src="js/main.min.js"></script>
+    <script>
+    ///*** layer 彈窗調用 ***///
+    layer.config({
+        extend: 'myskin/style.css'
+    });
+    $('#alerts').on('click', function() {
+        var index = parent.layer.getFrameIndex(window.name);
+        layer.open({
+            skin: 'my-skin',
+            type: 2,
+            anim: 5,
+            title: ['加碼送：7月份馬上買<font class="text--red">中國信託證卷</font>的權證，抽「BELKIN BOOST 無線充電盤」'],
+            scrollbar: false,
+            area: ['80%', '68%'],
+            move: false,
+            shadeClose: true,
+            fixed: true,
+            content: 'if_register.html'
+        });
+    });
+    </script>
+    <script>
+    Chart.defaults.global.defaultFontSize = 12;
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+        type: 'radar',
+        data: {
+            labels: ['大膽',
+                '謹慎',
+                '保守',
+                '穩定',
+                '行動力'
+            ],
+            datasets: [{
+                data: [60, 80, 100, 0, 60, 40],
+                label: '單位%',
+                backgroundColor: 'rgb(215, 236, 251,1)',
+                borderColor: 'rgba(54, 162, 235,1)',
+                pointBackgroundColor: 'rgba(54, 162, 235,1)',
+                pointRadius: 5,
+
+                pointHoverBackgroundColor: 'rgba(54, 162, 235,1)',
+                pointHoverRadius: 5,
+
+            }]
+        },
+        options: {
+            layout: {
+                padding: {
+                    left: 0,
+                    right: 0,
+                    top: 0,
+                    bottom: 0
+                }
+            },
+            legend: {
+                display: false,
+                labels: {
+                    fontSize: 12
+                }
+            },
+            gridLines: {
+                color: 'rgba(255, 255, 255, 0.5)'
+            },
+            scale: {
+                pointLabels: {
+                    fontSize: 12,
+                    fontColor: '#000',
+                }
+            }
+        }
+    });
+    </script>
+</body>
+
+</html>

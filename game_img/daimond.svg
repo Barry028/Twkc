@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.585" height="43.585" viewBox="0 0 44.585 43.585">
+  <g id="daimond" transform="translate(-764.163 20.913)">
+    <g id="diamond" transform="translate(764.663 -20.913)">
+      <g id="diamond-2" data-name="diamond" transform="translate(0 5.448)">
+        <path id="Union_71" data-name="Union 71" d="M35.283,13.958V11.964H33.208V3.988H31.132V1.994H24.906V0h6.226V1.994h2.076V3.988h2.075V5.982h2.076V7.976h2.075V9.97H41.51v1.994h2.076v1.994ZM0,13.958V11.964H12.453V3.988h2.075V5.982H16.6V7.976h2.076V9.97h2.075v1.994H22.83V9.97h2.076v1.994h6.226v1.994ZM24.906,9.97V7.976h2.076V9.97Zm4.151-3.988V3.988h2.075V5.982Zm-16.6-3.988V0H18.68V1.994Z" transform="translate(0 0)" fill="#8ae2e0" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+        <rect id="Rectangle_13627" data-name="Rectangle 13627" width="4.151" height="1.994" transform="translate(31.132 11.964)" fill="#ecf0f1"/>
+        <rect id="Rectangle_13628" data-name="Rectangle 13628" width="2.075" height="1.994" transform="translate(26.981 5.982)" fill="#ecf0f1"/>
+        <rect id="Rectangle_13629" data-name="Rectangle 13629" width="6.226" height="1.994" transform="translate(18.679 0)" fill="#ecf0f1"/>
+        <rect id="Rectangle_13630" data-name="Rectangle 13630" width="2.075" height="1.994" transform="translate(22.83 29.91)" fill="#00bcd1"/>
+        <rect id="Rectangle_13631" data-name="Rectangle 13631" width="2.075" height="1.994" transform="translate(24.906 27.916)" fill="#00bcd1"/>
+        <rect id="Rectangle_13632" data-name="Rectangle 13632" width="2.075" height="1.994" transform="translate(26.981 25.922)" fill="#00bcd1"/>
+        <path id="Union_68" data-name="Union 68" d="M14.529,27.916V25.922H12.453V23.928H10.377V21.934H8.3V19.94h8.3V11.964h2.075v1.994h2.075v1.994H22.83v1.994h2.076V11.964H37.359v1.994H35.283v1.994H33.208v1.994H31.133V19.94H29.057v1.994H26.982v1.994H24.906V21.934H16.6v5.982Zm-8.3-7.976V11.964h8.3v1.994H12.453v1.994H10.377v1.994H8.3V19.94ZM20.755,9.97V7.976H22.83V5.982h2.076V3.988h2.075V1.994h2.076V9.97Zm-4.151,0V0H26.981V1.994H24.906V3.988H22.83V5.982H20.755V7.976H18.679V9.97ZM0,9.97V7.976H2.075V5.982H4.151V3.988H6.226V1.994H8.3V9.97Z" transform="translate(4.151 1.994)" fill="#00bcd1" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+        <path id="Union_69" data-name="Union 69" d="M18.679,31.9V29.91H16.6V27.916h2.076V21.934h8.3v1.994H24.906v1.994H22.831v1.994H20.755V31.9Zm-4.151-3.988V25.922H12.453V23.928H10.378V21.934H8.3V19.94H6.227V17.946H4.151V15.952H2.076V13.958H0V11.964H8.3V19.94h2.075v1.994h2.076v1.994h2.075v1.994H16.6v1.994ZM10.378,19.94V17.946h2.076V15.952h2.075V13.958H16.6V11.964h2.076V19.94Zm14.528-1.994V15.952H22.831V13.958H20.755V11.964h6.227v5.982ZM0,9.97V7.976H2.076V9.97ZM16.6,7.976V5.982H14.528V3.988H12.453V1.994H8.3V0H18.679V7.976Zm-14.528,0V5.982H4.151V7.976ZM4.151,5.982V3.988H6.227V5.982ZM6.227,3.988V1.994H8.3V3.988Z" transform="translate(2.075 1.994)" fill="#8ae2e0" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      </g>
+      <g id="Rectangle_25450" data-name="Rectangle 25450" transform="translate(0 0)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+        <rect width="43.586" height="43.586" stroke="none"/>
+        <rect x="0.5" y="0.5" width="42.586" height="42.586" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

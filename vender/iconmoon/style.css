@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ryz6wg');
+  src:  url('fonts/icomoon.eot?ryz6wg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ryz6wg') format('truetype'),
+    url('fonts/icomoon.woff?ryz6wg') format('woff'),
+    url('fonts/icomoon.svg?ryz6wg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-member-card-icon-1:before {
+  content: "\e907";
+
+}
+.icon-member-card-icon-2:before {
+  content: "\e908";
+
+}
+.icon-member-card-icon-3:before {
+  content: "\e909";
+
+}
+.icon-member-card-icon-4:before {
+  content: "\e90a";
+
+}
+.icon-resume-list:before {
+  content: "\e900";
+}
+.icon-icon1:before {
+  content: "\e901";
+
+}
+.icon-icon2:before {
+  content: "\e902";
+
+}
+.icon-icon3:before {
+  content: "\e903";
+
+}
+.icon-icon4:before {
+  content: "\e904";
+
+}
+.icon-icon5:before {
+  content: "\e905";
+
+}
+.icon-icon6:before {
+  content: "\e906";
+
+}

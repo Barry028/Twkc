@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="412.81" height="92.566" viewBox="0 0 412.81 92.566">
+  <g id="banner" transform="translate(412.81 92.566) rotate(180)">
+    <path id="Path_49885" data-name="Path 49885" d="M147.264,181.482v-7.121H155.4v-7.12h8.132v-7.121H155.4V153H131v28.482Z" transform="translate(200.49 -96.036)" fill="#a22633"/>
+    <path id="Path_49886" data-name="Path 49886" d="M111.132,167.241v7.12h8.132v7.121h16.264V153h-24.4v7.121H103v7.121Z" transform="translate(-54.208 -96.036)" fill="#a22633"/>
+    <rect id="Rectangle_13578" data-name="Rectangle 13578" width="8.132" height="28.482" transform="translate(364.018 35.602)" fill="#a22633"/>
+    <rect id="Rectangle_13579" data-name="Rectangle 13579" width="8.132" height="28.482" transform="translate(40.66 35.602)" fill="#a22633"/>
+    <path id="Path_49887" data-name="Path 49887" d="M170.188,206.964v-7.121h-8.132v-7.121h-8.132V185.6h-8.132v-7.121H137.66V150H97v7.121h8.132v7.12h8.132v7.121H121.4V185.6h-8.132v7.12h-8.132v7.121H97v7.121Z" transform="translate(-97 -114.398)" fill="#e43b44"/>
+    <path id="Path_49888" data-name="Path 49888" d="M148.264,185.6v7.12h-8.132v7.121H132v7.121h73.188v-7.121h-8.132v-7.121h-8.132V185.6h-8.132V171.361h8.132v-7.121h8.132v-7.12h8.132V150h-40.66v28.482H156.4V185.6Z" transform="translate(207.622 -114.398)" fill="#e43b44"/>
+    <path id="Path_49889" data-name="Path 49889" d="M112.9,201.964H409.8v7.121h9.9V152.121h-9.9V145H112.9v7.121H103v56.964h9.9Z" transform="translate(-54.208 -145)" fill="#e43b44"/>
+  </g>
+</svg>

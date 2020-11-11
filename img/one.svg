@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="one" transform="translate(4640 -1378)">
+    <g id="Rectangle_25405" data-name="Rectangle 25405" transform="translate(-4640 1378)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="100" height="100" stroke="none"/>
+      <rect x="0.5" y="0.5" width="99" height="99" fill="none"/>
+    </g>
+    <path id="one-2" data-name="one" d="M-38.333,0h19.167V-95.833H-38.333v19.167H-57.5V-57.5h19.167Z" transform="translate(-4551.5 1475.833)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="211" viewBox="0 0 65 211">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_40920" data-name="Rectangle 40920" width="65" height="211" transform="translate(1288 327)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="give" transform="translate(-1288 -327)" clip-path="url(#clip-path)">
+    <g id="Group_41414" data-name="Group 41414" transform="translate(6 -48)">
+      <g id="Group_38039" data-name="Group 38039" transform="translate(98 -18.179)">
+        <path id="Rectangle_18556" data-name="Rectangle 18556" d="M0,0H59.569a0,0,0,0,1,0,0V16.677a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V0A0,0,0,0,1,0,0Z" transform="translate(1189 583.455)" fill="#9f2532"/>
+        <rect id="Rectangle_8619" data-name="Rectangle 8619" width="60" height="154" rx="4" transform="translate(1189 436.179)" fill="#e43b44"/>
+        <text id="加_碼_送" data-name="加
+碼
+送" transform="translate(1219 486.179)" fill="#ecf0f1" font-size="24" font-family="NotoSansCJKtc-Bold, Noto Sans CJK TC" font-weight="700"><tspan x="-12" y="0">加</tspan><tspan x="-12" y="36">碼</tspan><tspan x="-12" y="72">送</tspan></text>
+      </g>
+      <g id="Group_41413" data-name="Group 41413" transform="translate(1283 375)">
+        <rect id="Rectangle_11848" data-name="Rectangle 11848" width="10.737" height="3.579" transform="translate(25.053 10.738)" fill="#f6757a"/>
+        <rect id="Rectangle_11849" data-name="Rectangle 11849" width="21.474" height="21.476" transform="translate(3.579 28.634)" fill="#ecf0f1"/>
+        <rect id="Rectangle_11850" data-name="Rectangle 11850" width="10.737" height="21.476" transform="translate(35.789 28.634)" fill="#ecf0f1"/>
+        <rect id="Rectangle_11851" data-name="Rectangle 11851" width="25.053" height="14.317" transform="translate(0 10.738)" fill="#ecf0f1"/>
+        <rect id="Rectangle_11852" data-name="Rectangle 11852" width="14.316" height="14.317" transform="translate(35.789 10.738)" fill="#ecf0f1"/>
+        <rect id="Rectangle_11853" data-name="Rectangle 11853" width="21.474" height="3.579" transform="translate(3.579 25.055)" fill="#c0cbdc"/>
+        <path id="Path_49641" data-name="Path 49641" d="M184.316,573.317V559h17.895v14.317h-3.579v25.055H180.737V576.9H170v-3.579Z" transform="translate(-134.211 -548.262)" fill="#c0cbdc"/>
+        <rect id="Rectangle_11854" data-name="Rectangle 11854" width="10.737" height="35.793" transform="translate(25.053 14.317)" fill="#e43b44"/>
+        <path id="Path_49642" data-name="Path 49642" d="M175,563.159h3.579v-3.579h3.579V556h7.158v10.738H175Z" transform="translate(-139.21 -556)" fill="#e43b44"/>
+        <path id="Path_49643" data-name="Path 49643" d="M187.158,556v3.579h3.579v3.579h3.579v3.579H180V556Z" transform="translate(-162.105 -556)" fill="#e43b44"/>
+      </g>
+    </g>
+  </g>
+</svg>
